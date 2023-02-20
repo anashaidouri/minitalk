@@ -6,14 +6,16 @@
 #    By: ahaidour <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/30 23:41:00 by ahaidour          #+#    #+#              #
-#    Updated: 2023/02/20 22:58:38 by ahaidour         ###   ########.fr        #
+#    Updated: 2023/02/20 23:33:14 by ahaidour         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME_cli = client
 NAME_serv = server
+
 NAME_cli_B = client_bonus
 NAME_serv_B = server_bonus
+
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 RM = rm -f

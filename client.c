@@ -6,7 +6,7 @@
 /*   By: ahaidour <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 19:00:17 by ahaidour          #+#    #+#             */
-/*   Updated: 2023/02/20 22:05:05 by ahaidour         ###   ########.fr       */
+/*   Updated: 2023/02/20 23:34:46 by ahaidour         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ void to_send(pid_t p, int ch)
 	bit = 7;
 	while (bit >= 0)
 	{
-		// printf("%d\n", ch & (1 << bit));
 		if ((ch & (1 << bit)) != 0)
 			case_error = kill(p, SIGUSR1);
 		else
